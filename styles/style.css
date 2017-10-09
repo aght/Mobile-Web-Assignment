@@ -1,59 +1,19 @@
-body {
-  background-image: url(../images/background5.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
+#content {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.row {
-    padding: 0px !important;
+#showcase {
+    background-image: url(../images/background5.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-inverse {
     background: rgb(34, 34, 34) !important;
-}
-
-.no-padding {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.caption {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
-}
-
-.caption>h1 {
-    padding: 5vw;
-    color: white;
-    font-weight: 580;
-    font-stretch: ultra-expanded;
-    font-size: 5vw;
-    text-shadow: 2px 2px 3px rgba(75, 75, 75, 1);
-}
-
-.caption>button {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    color: white;
-    background: none;
-    background-color: none !important;
-    border: white solid 0.2em;
-    box-shadow: none;
-    border-radius: 0.3vw;
-}
-
-.caption>button:hover {
-    color: lightgray;
-    border: lightgray solid 0.2em;
-}
-
-#content {
-    overflow-x: hidden !important;
 }
