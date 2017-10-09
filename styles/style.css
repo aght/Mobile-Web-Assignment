@@ -1,18 +1,10 @@
-body, html {
-  margin: 0;
-  padding: 0;
-}
-
-.img-backround-wrapper {
-  display: inline-block;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-}
-
-.img-background {
-  height: 100%;
-  vertical-align: top;
+body {
+  background-image: url(../images/background5.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 .row {
