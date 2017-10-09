@@ -1,0 +1,56 @@
+body {
+    background: beige !important;
+    /*Used '!important to override bootstrap styling'*/
+}
+
+.row {
+    padding: 0px !important;
+}
+
+.navbar-inverse {
+    background: rgb(34, 34, 34) !important;
+}
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+
+.caption>h1 {
+    color: white;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+    font-size: 500%;
+}
+
+.caption>button {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    background: none;
+    background-color: none !important;
+    border: white solid 0.2em;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+.caption>button:hover {
+    color: lightgray;
+    background: none;
+    border: lightgray solid 0.2em;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+#content {
+    overflow-x: hidden !important;
+}
