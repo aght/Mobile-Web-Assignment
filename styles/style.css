@@ -18,16 +18,18 @@ body {
 
 .caption {
     position: absolute;
-    top: 35%;
+    top: 15%;
     left: 0;
     width: 100%;
 }
 
 .caption>h1 {
+    padding: 5vw;
     color: white;
-    font-weight: lighter;
+    font-weight: 580;
     font-stretch: ultra-expanded;
-    font-size: 500%;
+    font-size: 5vw;
+    text-shadow: 2px 2px 3px rgba(75, 75, 75, 1);
 }
 
 .caption>button {
@@ -40,7 +42,7 @@ body {
     background-color: none !important;
     border: white solid 0.2em;
     box-shadow: none;
-    border-radius: 2px;
+    border-radius: 0.3vw;
 }
 
 .caption>button:hover {
