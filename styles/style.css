@@ -3,17 +3,35 @@
     padding: 0 !important;
 }
 
-body {
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+.parallax {
     background-image: url(../images/background5.jpeg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 100vh;
 }
 
-#main-text > h1 {
+#section-a>h2 {
+    font-weight: lighter !important;
+}
+
+#main-text>h1 {
     color: white;
     font-size: 50px;
+    font-weight: lighter;
+}
+
+#main-text>h2 {
+    color: white;
+    font-size: 30px;
     font-weight: 100;
 }
 
@@ -23,6 +41,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#main-text>hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 40%;
+    background-color: white;
+    height: 2px;
+}
+
+#section-a> {
+    height: 500px;
+}
+
+#section-a>.jumbotron {
+    background-color: beige !important;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+    height: 100% !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
 }
 
 .navbar-inverse {
