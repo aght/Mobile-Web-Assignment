@@ -1,3 +1,8 @@
+body {
+    font-family: 'Raleway', sans-serif !important;
+    overflow-x: hidden !important;
+}
+
 #content {
     margin: 0 !important;
     padding: 0 !important;
@@ -19,23 +24,8 @@
     height: 100vh;
 }
 
-#section-a>h2 {
-    font-weight: lighter !important;
-}
-
-#main-text>h1 {
-    color: white;
-    font-size: 50px;
-    font-weight: lighter;
-}
-
-#main-text>h2 {
-    color: white;
-    font-size: 30px;
-    font-weight: 100;
-}
-
 #main-text {
+    font-weight: lighter;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -43,13 +33,66 @@
     align-items: center;
 }
 
-#main-text>hr {
+#text-wrapper {
+    text-align: center !important;
+    align-items: center !important;
+}
+
+.text-container {
+    text-align: center;
+    width: 50%;
+    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+}
+
+.text-container >h1 {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+
+}
+
+.text-container > p {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.text-container >hr {
     border: 0;
     clear: both;
     display: block;
-    width: 40%;
+    width: 100%;
     background-color: white;
     height: 2px;
+}
+
+.text-container >a {
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text
+}
+
+.text-container >a:hover {
+    border: 3px solid lightgray;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.text-container>a:active {
+    text-decoration: none;
+}
+
+.text-container >.arrow {
+    padding-top: 10vh;
+    font-size: 45px;
+    font-weight: lighter;
+    color: white;
 }
 
 #section-a> {
