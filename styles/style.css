@@ -6,7 +6,7 @@ font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [
 body {
     font-family: 'Raleway', sans-serif !important;
     overflow-x: hidden !important;
-    padding-top: 50px; /*Remove to make showcase picture align with bottom of page*/
+    /*padding-top: 50px; /*Remove to make showcase picture align with bottom of page*/
 }
 
 h5 {
@@ -58,6 +58,33 @@ h5 {
     height: 30vh;
 }
 
+.parallax-mid {
+    background-image: url(../images/background4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.parallax-mid > .jumbotron {
+    background: none;
+}
+
+.parallax-mid h2 {
+    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+    color: white;
+    font-weight: 200;
+    font-size: 40px !important; /*TODO change this to responsive font*/
+}
+
+.parallax-mid p {
+    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+    color: white;
+    font-weight: 200;
+    font-size: 25px !important; /*TODO change this to responsive font*/
+}
+
 #main-text {
     font-weight: lighter;
     height: 100vh;
@@ -68,6 +95,7 @@ h5 {
 }
 
 .text-container {
+    padding-top: 50px;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
 }
@@ -145,8 +173,20 @@ h5 {
     background-color: beige;
 }
 
+#section-a h2 {
+    font-weight: 200;
+}
+
 #section-b>.jumbotron {
     background-color: white;
+}
+
+#section-b h2 {
+    font-weight: 200;
+}
+
+#section-c > .jumbotron {
+    background-color: beige;
 }
 
 .jumbotron {
