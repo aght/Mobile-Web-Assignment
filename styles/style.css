@@ -189,6 +189,10 @@ h5 {
     background-color: beige;
 }
 
+#section-c h2 {
+    font-weight: 200;
+}
+
 .jumbotron {
     border-radius: 0 !important;
     width: 100% !important;
