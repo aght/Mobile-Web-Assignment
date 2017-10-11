@@ -203,6 +203,15 @@ h5 {
     padding: 0 !important;
 }
 
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer hr {
+    height: 1px;
+}
+
 .navbar-inverse {
     background: rgb(34, 34, 34) !important;
 }
