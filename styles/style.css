@@ -28,6 +28,68 @@ h5 {
     .text-container {
         width: 70%;
     }
+
+    .parallax-mid h2 {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    .parallax-mid .special-style {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .parallax-mid h2 {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 22px;
+    }
+
+    .parallax-mid .special-style {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .parallax-mid h2 {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 30px;
+    }
+
+    .parallax-mid .special-style {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .parallax-mid h2 {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 40px;
+    }
+
+    .parallax-mid .special-style {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 23px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -37,6 +99,18 @@ h5 {
     }
     .text-container {
         width: 50%;
+    }
+    .parallax-mid h2 {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 50px;
+    }
+    .parallax-mid .special-style {
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+        color: white;
+        font-weight: 200;
+        font-size: 20px;
     }
 }
 
@@ -64,26 +138,26 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 50vh;
 }
 
-.parallax-mid > .jumbotron {
+.parallax-mid>.jumbotron {
     background: none;
 }
 
-.parallax-mid h2 {
+/*.parallax-mid h2 {
     text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
     color: white;
     font-weight: 200;
-    font-size: 40px !important; /*TODO change this to responsive font*/
+    font-size: 20px;
 }
 
-.parallax-mid p {
+.parallax-mid .special-style {
     text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
     color: white;
     font-weight: 200;
-    font-size: 25px !important; /*TODO change this to responsive font*/
-}
+    font-size: 20px;
+}*/
 
 #main-text {
     font-weight: lighter;
@@ -185,7 +259,7 @@ h5 {
     font-weight: 200;
 }
 
-#section-c > .jumbotron {
+#section-c>.jumbotron {
     background-color: beige;
 }
 
@@ -207,7 +281,7 @@ h5 {
     padding: 0 !important;
 }
 
-#footer a{
+#footer a {
     text-decoration: none;
     color: white;
 }
