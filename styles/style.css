@@ -49,7 +49,7 @@ h5 {
         text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
         color: white;
         font-weight: 200;
-        font-size: 22px;
+        font-size: 27px;
     }
 
     .parallax-mid .special-style {
@@ -144,20 +144,6 @@ h5 {
 .parallax-mid>.jumbotron {
     background: none;
 }
-
-/*.parallax-mid h2 {
-    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
-    color: white;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-.parallax-mid .special-style {
-    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
-    color: white;
-    font-weight: 200;
-    font-size: 20px;
-}*/
 
 #main-text {
     font-weight: lighter;
