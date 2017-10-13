@@ -287,7 +287,8 @@ textarea {
     text-align: left;
 }
 
-.checkbox label, .radio label{
+.checkbox label,
+.radio label {
     font-size: 16px;
     font-weight: 200 !important;
 }
@@ -300,6 +301,14 @@ textarea {
     background-color: rgb(34, 34, 34) !important;
 }
 
-.panel-footer{
+.panel-footer {
     font-weight: 200;
+}
+
+#food-banner-wrapper {
+    padding: 0 !important;
+}
+
+#menu-wrapper {
+    background-color: white !important;
 }
