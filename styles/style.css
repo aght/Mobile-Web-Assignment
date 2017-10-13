@@ -34,6 +34,10 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 900px) {
+
+}
+
 @media only screen and (min-width: 992px) {
     .navbar {
         padding-left: 15%;
