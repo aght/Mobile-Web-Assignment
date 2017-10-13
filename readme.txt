@@ -6,6 +6,10 @@ andytang43@gmail.com
 
 
 Partner 2
+Raman Gerami
+A01022772
+Set A
+rgerami2@my.bcit.ca
 
 
 Completed
@@ -15,7 +19,6 @@ Not Completed
 
 
 Major Challenges
--Getting the full page picture on the front page to scale to any window size without having
+-Getting the fullpage picture on the front page to scale to any window size without having 
  any of the picture overflow out of the visible window.
 -Finding a formula to allow the text to be resized properly to the window.
--
