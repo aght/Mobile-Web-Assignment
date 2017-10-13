@@ -303,9 +303,16 @@ textarea {
 .panel-footer{
     font-weight: 200;
 }
+
 #perform-jumbotron{
     padding: 0 !important;
 }
+
 #perform-font{
     font-weight: 200 !important;
+}
+
+
+#food-banner-wrapper {
+    padding: 0 !important;
 }
