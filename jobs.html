@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-left"><img src="images/logo-small.png"></a>
+            <a href="#" class="navbar-left"><img src="images/logo-small.png" alt="Unable to display image."></a>
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
@@ -36,11 +36,60 @@
         </div>
     </nav>
 
-    <div class="container-fluid" id="content jobs-content">
+    <div class="container-fluid" id="content">
         <div class="row">
-            <div class="jumbotron" id- "jobs-text">
-                <p>Are your a college student who would like a part time job? Apply at Marina Cafe -- we will work around your school schedule. Complete the information for below to get the application process started. Or, if your prefer, stop by Marina
-                    Cafe any time and ask about employment opportunites. Marina Cafe is an equal opportunity employer. We celebrate the diversity of our associates.</p>
+            <div class="jumbotron" id="jobs-text">
+                <article>
+                    <h2>NEED A JOB?</h2>
+                    <hr>
+                    <p>Are your a college student who would like a part time job? Apply at Marina Cafe -- we will work around your school schedule. Complete the information for below to get the application process started. Or, if your prefer, stop by Marina
+                        Cafe any time and ask about employment opportunites. Marina Cafe is an equal opportunity employer. We celebrate the diversity of our associates.</p>
+                </article>
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotron" id="application-form">
+                <section id="job-header">
+                    <h1>JOB APPLICATION</h1>
+                    <hr>
+                </section>
+                <section id=application-fields>
+                    <form action="job_applications.php" method="POST">
+                        <div class="form-group">
+                            <label for="name"><h4>Full Name</h4></label>
+                            <input type="text" class="form-control" id=name>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><h4>Email Address</h4></label>
+                            <input type="text" class="form-control" id=email>
+                        </div>
+                        <div class="form-group" <label for="phone">
+                            <label for="phone"><h4>Phone</h4></label>
+                            <input type="text" class="form-control" id=phone>
+                        </div>
+                        <hr>
+                        <h3>Job Roles</h3>
+                        <br>
+                        <h4>Please select the job roles your are interested in:</h4>
+                        <div class="checkbox">
+                            <label for="bar_associate"><input id="bar_associate" type="checkbox">Bar Associate</label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="server"><input id="server" type="checkbox">Server</label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="cleaning_maintenance"><input id="cleaning_maintenance" type="checkbox">Cleaning &amp Maintenance</label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="manager"><input id="manager" type="checkbox">Manager</label>
+                        </div>
+                        <hr>
+                        <div class="radio">
+                        
+                        </div>
+                        <div class="radio"></div>
+                    </form>
+                </section>
             </div>
         </div>
     </div>

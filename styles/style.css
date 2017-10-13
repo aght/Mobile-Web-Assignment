@@ -254,9 +254,38 @@ h5 {
 }
 
 #jobs-text {
-    padding-left: 0px !important;
-    padding-top: 0px !important;
     background-color: white !important;
+}
+
+#jobs-text h2 {
+    font-weight: 300;
+}
+
+#application-form {
+    background-color: white !important;
+}
+
+#job-header h1 {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+}
+
+#application-fields h3 {
+    font-weight: 200;
+}
+
+#application-fields h4 {
+    font-weight: 200;
+}
+
+#application-fields {
+    text-align: left;
+}
+
+.checkbox label {
+    font-size: 16px;
+    font-weight: 200 !important;
 }
 
 .carousel-indicators li {
