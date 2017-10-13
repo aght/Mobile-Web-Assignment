@@ -37,7 +37,6 @@ label {
     .text-container {
         width: 70%;
     }
-
     .parallax {
         background-image: url(../images/cafe.jpeg);
         background-attachment: fixed;
@@ -123,7 +122,6 @@ label {
     .text-container {
         width: 50%;
     }
-
     .parallax {
         background-image: url(../images/cafe.jpeg);
         background-attachment: fixed;
