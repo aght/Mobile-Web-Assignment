@@ -2,6 +2,6 @@ var navHeight = 0;
 
 $(document).ready(function(){
     navHeight = $("nav").height();
-    $("body").css( "padding-top", navHeight);
+    $("body").css("padding-top", navHeight);
     console.log(navHeight);
 });

@@ -309,6 +309,11 @@ label {
 
 #footer hr {
     height: 1px;
+    background-color: white;
+}
+
+#footer p {
+    font-size: 12px;
 }
 
 #footer .col-sm-4 hr {
