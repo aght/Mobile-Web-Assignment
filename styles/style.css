@@ -6,7 +6,6 @@ font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [
 body {
     font-family: 'Raleway', sans-serif !important;
     overflow-x: hidden !important;
-    /*padding-top: 50px; /*Remove to make showcase picture align with bottom of page*/
 }
 
 h5 {
@@ -99,7 +98,7 @@ textarea {
     color: white;
     font-style: normal;
     font-weight: normal;
-    font-size: calc(20px + (100 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(20px + (100 - 20) *(100vw - 300px) / (1920 - 300)));
 }
 
 .text-container>.intro-text {
