@@ -37,6 +37,172 @@ label {
     .text-container {
         width: 70%;
     }
+
+    .parallax {
+        background-image: url(../images/cafe.jpeg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    #main-text {
+        font-weight: lighter;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-container {
+        text-align: center;
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+    }
+    .text-container>h1 {
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(20px + (100 - 20) * ((100vw - 300px) / 1620));
+    }
+    .text-container>.intro-text {
+        display: none;
+        color: white;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
+        font-weight: 300;
+        padding-bottom: 4vh;
+    }
+    .text-container>hr {
+        border: 0;
+        clear: both;
+        display: block;
+        width: 100%;
+        background-color: white;
+        height: 2px;
+    }
+    .text-container>a {
+        display: none;
+        border: 2px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .text-container>a:hover {
+        border: 2px solid lightgray;
+        color: lightgray;
+        text-decoration: none;
+    }
+    .text-container>a:active {
+        text-decoration: none;
+    }
+    .scroll-indicator>.arrow {
+        display: none;
+        font-size: calc(20px + (45 - 20) * ((100vw - 300px) / 1620));
+        font-weight: lighter;
+        color: white;
+    }
+    .scroll-indicator>.arrow:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
+    .scroll-indicator>.scroll-text {
+        display: none;
+        color: white;
+        font-weight: 300;
+        padding-top: 10vh;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
+    }
+    .scroll-indicator>.scroll-text:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .text-container {
+        width: 50%;
+    }
+
+    .parallax {
+        background-image: url(../images/cafe.jpeg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    #main-text {
+        font-weight: lighter;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-container {
+        text-align: center;
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+    }
+    .text-container>h1 {
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(20px + (100 - 20) * ((100vw - 300px) / 1620));
+    }
+    .text-container>.intro-text {
+        display: block;
+        color: white;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
+        font-weight: 300;
+        padding-bottom: 4vh;
+    }
+    .text-container>hr {
+        border: 0;
+        clear: both;
+        display: block;
+        width: 100%;
+        background-color: white;
+        height: 2px;
+    }
+    .text-container>a {
+        display: none;
+        border: 2px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .text-container>a:hover {
+        border: 2px solid lightgray;
+        color: lightgray;
+        text-decoration: none;
+    }
+    .text-container>a:active {
+        text-decoration: none;
+    }
+    .scroll-indicator>.arrow {
+        display: none;
+        font-size: calc(20px + (45 - 20) * ((100vw - 300px) / 1620));
+        font-weight: lighter;
+        color: white;
+    }
+    .scroll-indicator>.arrow:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
+    .scroll-indicator>.scroll-text {
+        display: none;
+        color: white;
+        font-weight: 300;
+        padding-top: 10vh;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
+    }
+    .scroll-indicator>.scroll-text:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -46,20 +212,10 @@ label {
     }
     .text-container {
         width: 50%;
-    }
-}
-
-.parallax {
-    background-image: url(../images/background5.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
 }
 
 .parallax-bottom {
-    background-image: url(../images/background5.jpeg);
+    background-image: url(../images/cafe.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,102 +223,8 @@ label {
     height: 30vh;
 }
 
-.ad-banner h2 {
-    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
-    color: white;
-    font-weight: 200;
-    font-size: 40px;
-}
-
-.ad-banner .special-style {
-    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
-    color: white;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 30px;
-}
-
-#main-text {
-    font-weight: lighter;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-container {
-    text-align: center;
-    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
-}
-
-.text-container>h1 {
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: calc(20px + (100 - 20) * ((100vw - 300px) / 1620));
-}
-
-.text-container>.intro-text {
-    color: white;
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
-    font-weight: 300;
-    padding-bottom: 4vh;
-}
-
-.text-container>hr {
-    border: 0;
-    clear: both;
-    display: block;
-    width: 100%;
-    background-color: white;
-    height: 2px;
-}
-
-.text-container>a {
-    border: 2px solid white;
-    border-radius: 3px;
-    padding: 5px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.text-container>a:hover {
-    border: 2px solid lightgray;
-    color: lightgray;
-    text-decoration: none;
-}
-
-.text-container>a:active {
-    text-decoration: none;
-}
-
-.scroll-indicator>.arrow {
-    font-size: calc(20px + (45 - 20) * ((100vw - 300px) / 1620));
-    font-weight: lighter;
-    color: white;
-}
-
-.scroll-indicator>.arrow:hover {
-    color: lightgray;
-    cursor: pointer;
-}
-
-.scroll-indicator>.scroll-text {
-    color: white;
-    font-weight: 300;
-    padding-top: 10vh;
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
-}
-
-.scroll-indicator>.scroll-text:hover {
-    color: lightgray;
-    cursor: pointer;
-}
-
 #section-a>.jumbotron {
-    background-color: beige;
+    background-color: white;
     padding: 0 !important;
 }
 
@@ -201,7 +263,7 @@ label {
 }
 
 #section-c>.jumbotron {
-    background-color: beige;
+    background-color: white;
 }
 
 #section-c h2 {
@@ -288,7 +350,8 @@ label {
     text-align: left;
 }
 
-.checkbox label, .radio label{
+.checkbox label,
+.radio label {
     font-size: 16px;
     font-weight: 200 !important;
 }
@@ -301,16 +364,35 @@ label {
     background-color: rgb(34, 34, 34) !important;
 }
 
-.panel-footer{
+.panel-footer {
     font-weight: 200;
 }
-#perform-jumbotron{
+
+#perform-jumbotron {
     padding: 0 !important;
 }
-#perform-font{
+
+#perform-font {
     font-weight: 200 !important;
 }
 
 #food-banner-wrapper {
     padding: 0 !important;
+}
+
+#free-incentives {
+    background-color: white;
+}
+
+#free-incentives h2 {
+    font-weight: 200 !important;
+}
+
+#advertisement-banner .jumbotron {
+    background-image: url(../images/cafe.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
