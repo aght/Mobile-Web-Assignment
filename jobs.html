@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="./index.html" class="navbar-left"><img src="images/logo-small.png"></a>
+            <a href="./index.html" class="navbar-left"><img src="images/logo-small.png" alt="Unable to display image"></a>
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
@@ -54,50 +54,50 @@
                     <h1>JOB APPLICATION</h1>
                     <hr>
                 </section>
-                <section id=application-fields>
+                <div id=application-fields>
                     <form action="job_applications.php" method="GET">
                         <div class="form-group">
-                            <label for="name"><h4>Full Name</h4></label>
-                            <input type="text" class="form-control" name=name placeholder="Name">
+                            <label for="name">Full Name<input type="text" class="form-control" name=name placeholder="Name" id="name"></label>
                         </div>
                         <div class="form-group">
-                            <label for="email"><h4>Email Address</h4></label>
-                            <input type="text" class="form-control" name=email placeholder="Email Address">
+                            <label for="email">Email Address<input type="text" class="form-control" name=email placeholder="Email Address" id="email"></label>
+
                         </div>
                         <div class="form-group">
-                            <label for="phone"><h4>Phone</h4></label>
-                            <input type="text" class="form-control" name=phone placeholder="###-###-####">
+                            <label for="phone">Phone<input type="text" class="form-control" name=phone placeholder="###-###-####" id="phone"></label>
+
                         </div>
                         <hr>
-                        <label><h4>Please select the job roles your are interested in</h4></label>
+                        <label>Please select the job roles your are interested in</label>
                         <div class="checkbox">
-                            <label for="bar_associate" class="form-check-label"><input name="bar_associate" type="checkbox">Bar Associate</label>
+                            <label for="bar_associate" class="form-check-label"><input name="bar_associate" type="checkbox" id="bar_associate">Bar Associate</label>
                         </div>
                         <div class="checkbox">
-                            <label for="server" class="form-check-label"><input name="server" type="checkbox">Server</label>
+                            <label for="server" class="form-check-label"><input name="server" type="checkbox" id="server">Server</label>
                         </div>
                         <div class="checkbox">
-                            <label for="cleaning_maintenance" class="form-check-label"><input name="cleaning_maintenance" type="checkbox">Cleaning &amp Maintenance</label>
+                            <label for="cleaning_maintenance" class="form-check-label"><input name="cleaning_maintenance" type="checkbox" id="cleaning_maintenance">Cleaning &amp; Maintenance</label>
                         </div>
                         <div class="checkbox">
-                            <label for="manager" class="form-check-label"><input name="manager" type="checkbox">Manager</label>
+                            <label for="manager" class="form-check-label"><input name="manager" type="checkbox" id="manager">Manager</label>
                         </div>
                         <hr>
-                        <label for="employment_type"><h4>Employment Type</h4></label>
+
+                        <label>Employment Type</label>
                         <div class="radio">
-                            <label class="radio-inline"><input type="radio" name="employment_type" value="full-time">Full-Time</label>
-                            <label class="radio-inline"><input type="radio" name="employment_type" value="part-time">Part-Time</label>
+                            <label class="radio-inline"><input type="radio" name="employment_type" value="full-time" >Full-Time</label>
+                            <label class="<radio-inline></radio-inline>"><input type="radio" name="employment_type" value="part-time">Part-Time</label>
                         </div>
-                        <label for="gender"><h4>Gender</h4></label>
+                        <label for="gender">Gender</label>
                         <div class="radio">
                             <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
                             <label class="radio-inline"><input type="radio" name="gender" value="female">Female</label>
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="years_of_experience"><h4>Years Of Experience</h4></label>
+                            <label for="years_of_experience">Years Of Experience</label>
                             <select name="years_of_experience" id="years_of_experience" class="form-control">
-                                <option value="" selected disabled></option>
+                                <option value="" selected disabled>&#8203;</option>
                                 <option value="No Experience">No experience</option>
                                 <option value="Less than 1 year">Less than 1 year</option>
                                 <option value="More than 1 year">More than 1 year</option>
@@ -105,7 +105,7 @@
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="comments"><h4>Comments</h4></label>
+                            <label for="comments">Comments</label>
                             <textarea class="form-control" name="comments" rows="8"></textarea>
                         </div>
                         <button type="submit" class="btn btn-default">Submit</button>
@@ -115,7 +115,7 @@
                             <p>Have any questions or concerns? Feel free to contact us using the telepone or email address located at the bottom of the page.</p>
                         </div>
                     </form>
-                </section>
+                </div>
             </div>
         </div>
     </div>

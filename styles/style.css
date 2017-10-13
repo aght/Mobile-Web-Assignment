@@ -17,6 +17,11 @@ textarea {
     resize: none;
 }
 
+label {
+    font-size: 17px !important;
+    font-weight: 300 !important;
+}
+
 #content,
 #footer {
     margin: 0 !important;
