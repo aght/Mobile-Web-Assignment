@@ -58,14 +58,14 @@ h5 {
     height: 30vh;
 }
 
-.parallax-mid h2 {
+.ad-banner h2 {
     text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
     color: white;
     font-weight: 200;
     font-size: 40px;
 }
 
-.parallax-mid .special-style {
+.ad-banner .special-style {
     text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
     color: white;
     font-style: normal;
@@ -225,7 +225,7 @@ h5 {
     padding-right: 15% !important;
 }
 
-.parallax-mid .jumbotron {
+.ad-banner .jumbotron {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     padding-left: 0 !important;
