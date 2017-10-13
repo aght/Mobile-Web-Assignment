@@ -158,10 +158,33 @@ h5 {
 
 #section-a>.jumbotron {
     background-color: beige;
+    padding: 0 !important;
 }
 
 #section-a h2 {
     font-weight: 200;
+    font-size: 30px;
+}
+
+#section-a p {
+    font-size: 20px;
+}
+
+#section-a .section-a-text-wrapper {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#section-a .section-a-img-wrapper {
+    align-items: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 #section-b>.jumbotron {
@@ -177,12 +200,10 @@ h5 {
 }
 
 #section-c h2 {
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
     font-weight: 200;
 }
 
 #section-c p {
-    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1920 - 300)));
     font-weight: 300;
 }
 
