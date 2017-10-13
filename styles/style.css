@@ -217,6 +217,24 @@ textarea {
     background-color: darkgray !important;
 }
 
+#section-e .jumbotron {
+    background-color: white;
+}
+
+#section-e h2{
+    font-weight: 200;
+}
+
+#section-e p{
+    font-weight: 300;
+}
+
+#section-e hr {
+    height: 1px;
+    width: 70%;
+    background-color: darkgray !important;
+}
+
 .jumbotron {
     border-radius: 0 !important;
     width: 100% !important;
@@ -315,4 +333,8 @@ textarea {
 
 #food-banner-wrapper {
     padding: 0 !important;
+}
+
+#job-footer-wrapper {
+    text-align: center;
 }
