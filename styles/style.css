@@ -27,14 +27,166 @@ textarea {
     color: white;
 }
 
+@media only screen and (min-width: 1px) {
+    .parallax {
+        background-image: url(../images/background5.jpeg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+}
+
 @media only screen and (min-width: 300px) {
     .text-container {
         width: 70%;
     }
+
+    #main-text {
+        font-weight: lighter;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-container {
+        text-align: center;
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+    }
+
+    .text-container>h1 {
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(20px + (100 - 20) *(100vw - 300px) / (1920 - 300)));
+    }
+
+    .text-container>.intro-text {
+        display: none;
+        color: white;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+        font-weight: 300;
+        padding-bottom: 4vh;
+    }
+
+    .text-container>hr {
+        border: 0;
+        clear: both;
+        display: block;
+        width: 100%;
+        background-color: white;
+        height: 2px;
+    }
+
+    .text-container>a {
+        display: none;
+        border: 2px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .scroll-indicator>.arrow {
+        display: none;
+        font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1920 - 300)));
+        font-weight: lighter;
+        color: white;
+    }
+
+    .scroll-indicator>.scroll-text {
+        display: none;
+        color: white;
+        font-weight: 300;
+        padding-top: 10vh;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+    }
 }
 
 @media only screen and (min-width: 900px) {
-
+    .parallax {
+        background-image: url(../images/background5.jpeg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    #main-text {
+        font-weight: lighter;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-container {
+        text-align: center;
+        text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
+    }
+    .text-container>h1 {
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(20px + (100 - 20) *(100vw - 300px) / (1920 - 300)));
+    }
+    .text-container>.intro-text {
+        display: block;
+        color: white;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+        font-weight: 300;
+        padding-bottom: 4vh;
+    }
+    .text-container>hr {
+        border: 0;
+        clear: both;
+        display: block;
+        width: 100%;
+        background-color: white;
+        height: 2px;
+    }
+    .text-container>a {
+        display: inline-block;
+        border: 2px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .text-container>a:hover {
+        border: 2px solid lightgray;
+        color: lightgray;
+        text-decoration: none;
+    }
+    .text-container>a:active {
+        text-decoration: none;
+    }
+    .scroll-indicator>.arrow {
+        display: block;
+        font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1920 - 300)));
+        font-weight: lighter;
+        color: white;
+    }
+    .scroll-indicator>.arrow:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
+    .scroll-indicator>.scroll-text {
+        display: block;
+        color: white;
+        font-weight: 300;
+        padding-top: 10vh;
+        font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+    }
+    .scroll-indicator>.scroll-text:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -45,15 +197,6 @@ textarea {
     .text-container {
         width: 50%;
     }
-}
-
-.parallax {
-    background-image: url(../images/background5.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
 }
 
 .parallax-bottom {
@@ -78,85 +221,6 @@ textarea {
     font-style: normal;
     font-weight: 200;
     font-size: 30px;
-}
-
-#main-text {
-    font-weight: lighter;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-container {
-    text-align: center;
-    text-shadow: 3px 3px 5px rgba(48, 48, 48, 1);
-}
-
-.text-container>h1 {
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: calc(20px + (100 - 20) *(100vw - 300px) / (1920 - 300)));
-}
-
-.text-container>.intro-text {
-    color: white;
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
-    font-weight: 300;
-    padding-bottom: 4vh;
-}
-
-.text-container>hr {
-    border: 0;
-    clear: both;
-    display: block;
-    width: 100%;
-    background-color: white;
-    height: 2px;
-}
-
-.text-container>a {
-    border: 2px solid white;
-    border-radius: 3px;
-    padding: 5px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.text-container>a:hover {
-    border: 2px solid lightgray;
-    color: lightgray;
-    text-decoration: none;
-}
-
-.text-container>a:active {
-    text-decoration: none;
-}
-
-.scroll-indicator>.arrow {
-    font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1920 - 300)));
-    font-weight: lighter;
-    color: white;
-}
-
-.scroll-indicator>.arrow:hover {
-    color: lightgray;
-    cursor: pointer;
-}
-
-.scroll-indicator>.scroll-text {
-    color: white;
-    font-weight: 300;
-    padding-top: 10vh;
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
-}
-
-.scroll-indicator>.scroll-text:hover {
-    color: lightgray;
-    cursor: pointer;
 }
 
 #section-a> {
@@ -290,7 +354,8 @@ textarea {
     text-align: left;
 }
 
-.checkbox label, .radio label{
+.checkbox label,
+.radio label {
     font-size: 16px;
     font-weight: 200 !important;
 }
