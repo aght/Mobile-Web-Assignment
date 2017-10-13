@@ -33,7 +33,7 @@ label {
     color: white;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 200px) {
     .text-container {
         width: 70%;
     }
@@ -212,6 +212,7 @@ label {
     }
     .text-container {
         width: 50%;
+    }
 }
 
 .parallax-bottom {
