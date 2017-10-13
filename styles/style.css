@@ -95,12 +95,12 @@ textarea {
     color: white;
     font-style: normal;
     font-weight: normal;
-    font-size: calc(20px + (100 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(20px + (100 - 20) * ((100vw - 300px) / 1620));
 }
 
 .text-container>.intro-text {
     color: white;
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
     font-weight: 300;
     padding-bottom: 4vh;
 }
@@ -134,7 +134,7 @@ textarea {
 }
 
 .scroll-indicator>.arrow {
-    font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(20px + (45 - 20) * ((100vw - 300px) / 1620));
     font-weight: lighter;
     color: white;
 }
@@ -148,7 +148,7 @@ textarea {
     color: white;
     font-weight: 300;
     padding-top: 10vh;
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / 1620));
 }
 
 .scroll-indicator>.scroll-text:hover {
@@ -156,7 +156,7 @@ textarea {
     cursor: pointer;
 }
 
-#section-a> {
+#section-a {
     height: 500px;
 }
 
@@ -212,24 +212,6 @@ textarea {
 }
 
 #section-c hr {
-    height: 1px;
-    width: 70%;
-    background-color: darkgray !important;
-}
-
-#section-e .jumbotron {
-    background-color: white;
-}
-
-#section-e h2{
-    font-weight: 200;
-}
-
-#section-e p{
-    font-weight: 300;
-}
-
-#section-e hr {
     height: 1px;
     width: 70%;
     background-color: darkgray !important;
@@ -321,20 +303,9 @@ textarea {
 .panel-footer{
     font-weight: 200;
 }
-
 #perform-jumbotron{
     padding: 0 !important;
 }
-
 #perform-font{
     font-weight: 200 !important;
-}
-
-
-#food-banner-wrapper {
-    padding: 0 !important;
-}
-
-#job-footer-wrapper {
-    text-align: center;
 }
