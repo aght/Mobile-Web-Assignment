@@ -177,18 +177,19 @@ h5 {
 }
 
 #section-c h2 {
-    font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
     font-weight: 200;
 }
 
 #section-c p {
-    font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 300;
 }
 
 #section-c hr {
     height: 1px;
     width: 70%;
-    background-color: black !important;
+    background-color: darkgray !important;
 }
 
 .jumbotron {
