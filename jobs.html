@@ -54,40 +54,67 @@
                     <hr>
                 </section>
                 <section id=application-fields>
-                    <form action="job_applications.php" method="POST">
+                    <form action="job_applications.php" method="GET">
                         <div class="form-group">
                             <label for="name"><h4>Full Name</h4></label>
-                            <input type="text" class="form-control" id=name>
+                            <input type="text" class="form-control" name=name>
                         </div>
                         <div class="form-group">
                             <label for="email"><h4>Email Address</h4></label>
-                            <input type="text" class="form-control" id=email>
+                            <input type="text" class="form-control" name=email>
                         </div>
-                        <div class="form-group" <label for="phone">
+                        <div class="form-group">
                             <label for="phone"><h4>Phone</h4></label>
-                            <input type="text" class="form-control" id=phone>
+                            <input type="text" class="form-control" name=phone>
                         </div>
                         <hr>
-                        <h3>Job Roles</h3>
-                        <br>
-                        <h4>Please select the job roles your are interested in:</h4>
+                        <label><h4>Please select the job roles your are interested in</h4></label>
                         <div class="checkbox">
-                            <label for="bar_associate"><input id="bar_associate" type="checkbox">Bar Associate</label>
+                            <label for="bar_associate" class="form-check-label"><input name="bar_associate" type="checkbox">Bar Associate</label>
                         </div>
                         <div class="checkbox">
-                            <label for="server"><input id="server" type="checkbox">Server</label>
+                            <label for="server" class="form-check-label"><input name="server" type="checkbox">Server</label>
                         </div>
                         <div class="checkbox">
-                            <label for="cleaning_maintenance"><input id="cleaning_maintenance" type="checkbox">Cleaning &amp Maintenance</label>
+                            <label for="cleaning_maintenance" class="form-check-label"><input name="cleaning_maintenance" type="checkbox" value="cleaning_maintenace">Cleaning &amp Maintenance</label>
                         </div>
                         <div class="checkbox">
-                            <label for="manager"><input id="manager" type="checkbox">Manager</label>
+                            <label for="manager" class="form-check-label"><input name="manager" type="checkbox">Manager</label>
                         </div>
                         <hr>
+                        <label for="employment_type"><h4>Employment Type</h4></label>
                         <div class="radio">
-                        
+                            <label class="radio-inline"><input type="radio" name="employment_type" value="full-time">Full-Time</label>
+                            <label class="radio-inline"><input type="radio" name="employment_type" value="part-time">Part-Time</label>
                         </div>
-                        <div class="radio"></div>
+                        <label for="gender"><h4>Gender</h4></label>
+                        <div class="radio">
+                            <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
+                            <label class="radio-inline"><input type="radio" name="gender" value="female">Female</label>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label for="years_of_experience"><h4>Years Of Experience</h4></label>
+                            <select name="years_of_experience" id="years_of_experience" class="form-control">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10+">10+</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label for="comments"><h4>Comments</h4></label>
+                            <textarea class="form-control" name="comments" rows="8"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="reset" class="btn btn-default">Reset</button>
                     </form>
                 </section>
             </div>

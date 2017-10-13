@@ -13,6 +13,10 @@ h5 {
     font-weight: bolder;
 }
 
+textarea {
+    resize: none;
+}
+
 #content,
 #footer {
     margin: 0 !important;
@@ -283,7 +287,7 @@ h5 {
     text-align: left;
 }
 
-.checkbox label {
+.checkbox label, .radio label{
     font-size: 16px;
     font-weight: 200 !important;
 }
