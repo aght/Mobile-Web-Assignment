@@ -161,10 +161,6 @@ label {
     cursor: pointer;
 }
 
-#section-a {
-    height: 500px;
-}
-
 #section-a>.jumbotron {
     background-color: beige;
     padding: 0 !important;
@@ -313,4 +309,8 @@ label {
 }
 #perform-font{
     font-weight: 200 !important;
+}
+
+#food-banner-wrapper {
+    padding: 0 !important;
 }
