@@ -177,7 +177,18 @@ h5 {
 }
 
 #section-c h2 {
+    font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1920 - 300)));
     font-weight: 200;
+}
+
+#section-c p {
+    font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1920 - 300)));
+}
+
+#section-c hr {
+    height: 1px;
+    width: 70%;
+    background-color: black !important;
 }
 
 .jumbotron {
@@ -212,6 +223,10 @@ h5 {
     height: 1px;
 }
 
+#footer .col-sm-4 hr {
+    width: 30%;
+}
+
 .navbar-inverse {
     background: rgb(34, 34, 34) !important;
 }
@@ -220,4 +235,8 @@ h5 {
     padding-left: 0px !important;
     padding-top: 0px !important;
     background-color: white !important;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
 }
