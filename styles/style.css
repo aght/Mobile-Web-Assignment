@@ -28,7 +28,7 @@ label {
 }
 
 #performances {
-    background: url('../images/performances-wide.jpg') repeat;
+    background: url('../images/performances-banner.jpg') repeat;
     background-position: bottom;
     width: 100%;
     height: 400px;
@@ -37,7 +37,7 @@ label {
 }
 
 #menu {
-    background: url('../images/food-wide.jpg') repeat;
+    background: url('../images/menu-banner.jpg') repeat;
     background-position: bottom;
     width: 100%;
     height: 400px;
