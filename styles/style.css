@@ -253,7 +253,7 @@ label {
 }
 
 #section-a h2 {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 30px;
 }
 
@@ -283,7 +283,7 @@ label {
 }
 
 #section-b h2 {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 #section-c>.jumbotron {
@@ -291,11 +291,11 @@ label {
 }
 
 #section-c h2 {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 #section-c p {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 #section-c hr {
@@ -392,7 +392,7 @@ label {
 }
 
 #perform-font {
-    font-weight: 200 !important;
+    font-weight: 300 !important;
 }
 
 #food-banner-wrapper {
@@ -404,7 +404,7 @@ label {
 }
 
 #free-incentives h2 {
-    font-weight: 200 !important;
+    font-weight: 300 !important;
 }
 
 #advertisement-banner .jumbotron {
@@ -463,6 +463,7 @@ label {
     transition: all 200ms ease-in;
     transform: scale(1);
 }
+
 .hover-zoom:hover {
     z-index: 10;
     transition: all 200ms ease;
