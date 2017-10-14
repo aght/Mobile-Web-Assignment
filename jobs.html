@@ -16,143 +16,144 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-            <!--Create the navbar toggle button-->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+    <div class="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <!--Create the navbar toggle button-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="./index.html" class="navbar-left"><img src="images/logo-small.png" alt="Unable to display image"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="performances.html">PERFORMANCES</a></li>
-                <li><a href="jobs.html">JOBS</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container-fluid" id="content">
-        <div class="row">
-            <div class="jumbotron" id="jobs-text">
-                <article>
-                    <h2>NEED A JOB?</h2>
-                    <hr>
-                    <p>Are your a college student who would like a part time job? Apply at Marina Cafe -- we will work around your school schedule. Complete the information for below to get the application process started. Or, if your prefer, stop by Marina
-                        Cafe any time and ask about employment opportunites. Marina Cafe is an equal opportunity employer. We celebrate the diversity of our associates.</p>
-                </article>
+                <a href="./index.html" class="navbar-left"><img src="images/logo-small.png" alt="Unable to display image"></a>
             </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="jumbotron" id="application-form">
-                <section id="job-header">
-                    <h1>JOB APPLICATION</h1>
-                    <hr>
-                </section>
-                <div id=application-fields>
-                    <form action="job_applications.php" method="GET">
-                        <div class="form-group">
-                            <label for="name">Full Name<input type="text" class="form-control" name=name placeholder="Name" id="name"></label>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address<input type="text" class="form-control" name=email placeholder="Email Address" id="email"></label>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="performances.html">PERFORMANCES</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                </ul>
+            </div>
+        </nav>
 
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone<input type="text" class="form-control" name=phone placeholder="###-###-####" id="phone"></label>
+        <div class="container-fluid" id="content">
+            <div class="row">
+                <div class="jumbotron" id="jobs-text">
+                    <article>
+                        <h2>NEED A JOB?</h2>
+                        <hr>
+                        <p>Are your a college student who would like a part time job? Apply at Marina Cafe -- we will work around your school schedule. Complete the information for below to get the application process started. Or, if your prefer, stop by
+                            Marina Cafe any time and ask about employment opportunites. Marina Cafe is an equal opportunity employer. We celebrate the diversity of our associates.</p>
+                    </article>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="jumbotron" id="application-form">
+                    <section id="job-header">
+                        <h1>JOB APPLICATION</h1>
+                        <hr>
+                    </section>
+                    <div id=application-fields>
+                        <form action="job_applications.php" method="GET">
+                            <div class="form-group">
+                                <label for="name">Full Name<input type="text" class="form-control" name=name placeholder="Name" id="name"></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address<input type="text" class="form-control" name=email placeholder="Email Address" id="email"></label>
 
-                        </div>
-                        <hr>
-                        <label>Please select the job roles your are interested in</label>
-                        <div class="checkbox">
-                            <label for="bar_associate" class="form-check-label"><input name="bar_associate" type="checkbox" id="bar_associate">Bar Associate</label>
-                        </div>
-                        <div class="checkbox">
-                            <label for="server" class="form-check-label"><input name="server" type="checkbox" id="server">Server</label>
-                        </div>
-                        <div class="checkbox">
-                            <label for="cleaning_maintenance" class="form-check-label"><input name="cleaning_maintenance" type="checkbox" id="cleaning_maintenance">Cleaning &amp; Maintenance</label>
-                        </div>
-                        <div class="checkbox">
-                            <label for="manager" class="form-check-label"><input name="manager" type="checkbox" id="manager">Manager</label>
-                        </div>
-                        <hr>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone<input type="text" class="form-control" name=phone placeholder="###-###-####" id="phone"></label>
 
-                        <label>Employment Type</label>
-                        <div class="radio">
-                            <label class="radio-inline"><input type="radio" name="employment_type" value="full-time" >Full-Time</label>
-                            <label class="radio-inline"><input type="radio" name="employment_type" value="part-time">Part-Time</label>
-                        </div>
-                        <label>Gender</label>
-                        <div class="radio">
-                            <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
-                            <label class="radio-inline"><input type="radio" name="gender" value="female">Female</label>
-                        </div>
-                        <hr>
-                        <div class="form-group">
-                            <label for="years_of_experience">Years Of Experience</label>
-                            <select name="years_of_experience" id="years_of_experience" class="form-control">
+                            </div>
+                            <hr>
+                            <label>Please select the job roles your are interested in</label>
+                            <div class="checkbox">
+                                <label for="bar_associate" class="form-check-label"><input name="bar_associate" type="checkbox" id="bar_associate">Bar Associate</label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="server" class="form-check-label"><input name="server" type="checkbox" id="server">Server</label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="cleaning_maintenance" class="form-check-label"><input name="cleaning_maintenance" type="checkbox" id="cleaning_maintenance">Cleaning &amp; Maintenance</label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="manager" class="form-check-label"><input name="manager" type="checkbox" id="manager">Manager</label>
+                            </div>
+                            <hr>
+
+                            <label>Employment Type</label>
+                            <div class="radio">
+                                <label class="radio-inline"><input type="radio" name="employment_type" value="full-time" >Full-Time</label>
+                                <label class="radio-inline"><input type="radio" name="employment_type" value="part-time">Part-Time</label>
+                            </div>
+                            <label>Gender</label>
+                            <div class="radio">
+                                <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
+                                <label class="radio-inline"><input type="radio" name="gender" value="female">Female</label>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <label for="years_of_experience">Years Of Experience</label>
+                                <select name="years_of_experience" id="years_of_experience" class="form-control">
                                 <option value="" selected disabled>&#8203;</option>
                                 <option value="No Experience">No experience</option>
                                 <option value="Less than 1 year">Less than 1 year</option>
                                 <option value="More than 1 year">More than 1 year</option>
                             </select>
-                        </div>
-                        <hr>
-                        <div class="form-group">
-                            <label>Comments</label>
-                            <textarea class="form-control" name="comments" rows="8"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                        <button type="reset" class="btn btn-default">Reset</button>
-                        <hr>
-                        <div id="job-footer-wrapper">
-                            <p>Have any questions or concerns? Feel free to contact us using the telepone or email address located at the bottom of the page.</p>
-                        </div>
-                    </form>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <label>Comments</label>
+                                <textarea class="form-control" name="comments" rows="8"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                            <button type="reset" class="btn btn-default">Reset</button>
+                            <hr>
+                            <div id="job-footer-wrapper">
+                                <p>Have any questions or concerns? Feel free to contact us using the telepone or email address located at the bottom of the page.</p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="parallax-bottom"></div>
+
+        <footer>
+            <div class="container-fluid" id="footer">
+                <div class="jumbotron" id="footer-info">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5>CAFE HOURS</h5>
+                            <p>Monday-Friday: 7am - 8pm</p>
+                            <p>Saturday: 8am - 9pm / Sunday 9am-5pm</p>
+                            <p>Holidays: Closed</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>LOCATION</h5>
+                            <p>667 Lawrence Ave</p>
+                            <p>Kelowna, BC V1Y 6L8</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>CONTACT</h5>
+                            <p><a href="mailto:&#109;&#097;&#114;&#105;&#110;&#097;&#064;&#109;&#097;&#114;&#105;&#110;&#097;&#099;&#097;&#102;&#101;&#046;&#099;&#111;&#109;">marina@marinacafe.com</a></p>
+                            <p>1-888-888-8888</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <hr>
+                            <p><small>Copyright © 2011 Marina Cafe</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-
-    <div class="parallax-bottom"></div>
-
-    <footer>
-        <div class="container-fluid" id="footer">
-            <div class="jumbotron" id="footer-info">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h5>CAFE HOURS</h5>
-                        <p>Monday-Friday: 7am - 8pm</p>
-                        <p>Saturday: 8am - 9pm / Sunday 9am-5pm</p>
-                        <p>Holidays: Closed</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h5>LOCATION</h5>
-                        <p>667 Lawrence Ave</p>
-                        <p>Kelowna, BC V1Y 6L8</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h5>CONTACT</h5>
-                        <p><a href="mailto:&#109;&#097;&#114;&#105;&#110;&#097;&#064;&#109;&#097;&#114;&#105;&#110;&#097;&#099;&#097;&#102;&#101;&#046;&#099;&#111;&#109;">marina@marinacafe.com</a></p>
-                        <p>1-888-888-8888</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <hr>
-                        <p><small>Copyright © 2011 Marina Cafe</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
 </body>
 
 </html>
