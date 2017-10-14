@@ -63,7 +63,7 @@ label {
         width: 70%;
     }
     .parallax {
-        background-image: url(../images/cafe.jpeg);
+        background-image: url('../images/cafe.jpeg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -148,7 +148,7 @@ label {
         width: 50%;
     }
     .parallax {
-        background-image: url(../images/cafe.jpeg);
+        background-image: url('../images/cafe.jpeg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -239,7 +239,7 @@ label {
 }
 
 .parallax-bottom {
-    background-image: url(../images/cafe.jpeg);
+    background-image: url('../images/cafe.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -418,7 +418,7 @@ label {
 }
 
 #advertisement-banner .jumbotron {
-    background-image: url(../images/cafe.jpeg);
+    background-image: url('../images/cafe.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
