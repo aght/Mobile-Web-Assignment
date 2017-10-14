@@ -438,7 +438,7 @@ label {
 .panel-heading {
     color: black !important;
     border-radius: 0 !important;
-    background-color: transparent !important;
+    background-color: white !important;
 }
 
 .panel-heading,
@@ -449,16 +449,7 @@ label {
 
 .panel-footer {
     font-weight: 200;
-    background: transparent !important;
-}
-
-.equal-height {
-    display: flex;
-}
-
-.equal-height div[class*='col-'] {
-    flex: 1 1 auto;
-    display: flex;
+    background: white !important;
 }
 
 .remove-padding {
@@ -466,4 +457,14 @@ label {
     padding-right: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+.hover-zoom {
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+.hover-zoom:hover {
+    z-index: 10;
+    transition: all 200ms ease;
+    transform: scale(1.05);
 }
