@@ -13,41 +13,33 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="javascript/autoBodyPadding.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-            <!--Create the navbar toggle button-->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <header id="menu">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <!--Create the navbar toggle button-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="./index.html" class="navbar-left"><img src="images/logo-small.png" alt="Nav"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="performances.html">PERFORMANCES</a></li>
-                <li><a href="jobs.html">JOBS</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container-fluid" id=content>
-        <div class="jumbotron" id="food-banner-wrapper">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div>
-                        <img class="img-responsive" src="./images/food.jpg" alt="Cannot display image.">
-                    </div>
+                    <a href="./index.html" class="navbar-left"><img src="images/logo-small.png" alt="Nav"></a>
                 </div>
-            </div>
-        </div>
-        <!--Add parallax image here-->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="performances.html">PERFORMANCES</a></li>
+                        <li><a href="jobs.html">JOBS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
         <div class="jumbotron" id="menu-wrapper">
             <div class="row">
                 <div class="col-sm-12">
@@ -114,41 +106,40 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="parallax-bottom"></div>
+        <div class="parallax-bottom"></div>
 
-    <footer>
-        <div class="container-fluid" id="footer">
-            <div class="jumbotron" id="footer-info">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h5>CAFE HOURS</h5>
-                        <p>Monday-Friday: 7am - 8pm</p>
-                        <p>Saturday: 8am - 9pm / Sunday 9am-5pm</p>
-                        <p>Holidays: Closed</p>
+        <footer>
+            <div class="container-fluid" id="footer">
+                <div class="jumbotron" id="footer-info">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5>CAFE HOURS</h5>
+                            <p>Monday-Friday: 7am - 8pm</p>
+                            <p>Saturday: 8am - 9pm / Sunday 9am-5pm</p>
+                            <p>Holidays: Closed</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>LOCATION</h5>
+                            <p>667 Lawrence Ave</p>
+                            <p>Kelowna, BC V1Y 6L8</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>CONTACT</h5>
+                            <p><a href="mailto:&#109;&#097;&#114;&#105;&#110;&#097;&#064;&#109;&#097;&#114;&#105;&#110;&#097;&#099;&#097;&#102;&#101;&#046;&#099;&#111;&#109;">marina@marinacafe.com</a></p>
+                            <p>1-888-888-8888</p>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <h5>LOCATION</h5>
-                        <p>667 Lawrence Ave</p>
-                        <p>Kelowna, BC V1Y 6L8</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h5>CONTACT</h5>
-                        <p><a href="mailto:&#109;&#097;&#114;&#105;&#110;&#097;&#064;&#109;&#097;&#114;&#105;&#110;&#097;&#099;&#097;&#102;&#101;&#046;&#099;&#111;&#109;">marina@marinacafe.com</a></p>
-                        <p>1-888-888-8888</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <hr>
-                        <p><small>Copyright © 2011 Marina Cafe</small></p>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <hr>
+                            <p><small>Copyright © 2011 Marina Cafe</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 </body>
 
 </html>
