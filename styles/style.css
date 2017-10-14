@@ -424,6 +424,14 @@ label {
     font-weight: 300;
 }
 
+#perforance-wrapper img {
+    width: 100% !important;
+}
+
+#perforance-wrapper {
+    background-color: white !important;
+}
+
 .panel {
     border: 0 !important;
     box-shadow: 1px 1px 4px 1px rgba(150, 150, 150, 1) !important;
