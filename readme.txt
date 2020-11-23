@@ -4,14 +4,6 @@ A01027848
 Set A
 andytang43@gmail.com
 
-
-Partner 2
-Raman Gerami
-A01022772
-Set A
-rgerami2@my.bcit.ca
-
-
 Completed
 Everything
 
